@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>	
+	<style type="text/css">
+		.container{ 
+			width: 1000px; 
+			margin-left: auto; 
+			margin-right: auto;
+			margin-top: 20px;
+		}
+		.col-12{
+			width: 100%;
+		}
+		.mt-1{
+			margin-top: 10px;
+		}
+		.ml-1{
+			margin-left: 10px;
+		}
+		.mr-1{
+			margin-right: 10px;
+		}
+		.mb-1{
+			margin-bottom: 10px;
+		}
+		.col-10{
+			width: 80%;
+		}
+		.bg-green{
+			background: grey;
+		}
+		.col-8{
+			width: 20%;
+		}
+		.bg-blue{
+			background: grey;
+		}
+		.d-flex{
+			display: flex;
+		}
+		.border{
+		}
+		.col-3{
+			width: 30%;
+		}
+		.col-9{
+			width: 70%;
+		}
+		.w-25 {
+            width: 25%
+        }
+        .btn {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background: white;
+        }   
+        .star{
+        	opacity: 1;
+        	transition: 1s;
+        }       
+	</style>
+</head>
+<body style="background: black;">
+	<div class="container">
+		<div class="col-12 bg-green d-flex" style="">
+			<div class="col-10 bg-blue border" style="">
+				<h1>Супердетки: Вундеркинды-2</h1>
+				<p>Разочарование года</p>
+			</div>
+			<div class="col-2 bg-blue border" style=" margin-left: 10px;">
+				<img src="star.png" style="width: 50px;" class="star star1">
+                <h1 class="st1"></h1>
+			</div>
+		</div>
+		<div class="col-12 bg-green mt-1 d-flex" style="">
+			<div class="col-3 bg-blue border ml-1 mt-1" style="">
+				<img src="01.jpg" class="col-12">
+				<button class="btn">Добавить в список</button>	     
+			</div>
+			<div class="col-9 bg-blue border ml-1 mr-1 mt-1 mb-1">	
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/hyJuSjpoMfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Сюжет этой ленты также глуп, как и она сама. Злой медиамагнат хочет захватить мир, а маленькие дети пытаются ему в этом помешать. Все это полный абсурд. Но еще абсурднее ребенок-супергерой по имени Кахуна, которого боятся даже самые отъявленные злодеи. До сих пор не уживается мысль, как маленькие дети могут спасти мир.</p>	
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="col-12 bg-green d-flex" style=" margin-top: 50px;">
+			<div class="col-10 bg-blue border ml-1 mt-1" style="">
+				<h1>Хэллоуин заканчивается</h1>
+				<p>Самое ожидаемое</p>
+			</div>
+			<div class="col-2 bg-blue border" style=" margin-left: 10px;">
+				<img src="star.png" style="width: 50px;" class="star star2">
+                <h1 class="st2">8</h1>
+			</div>
+		</div>
+		<div class="col-12 bg-green mt-1 d-flex" style="">
+			<div class="col-3 bg-blue border ml-1 mt-1 mb-1" style="">
+				<img src="02.jpg" class="col-12">
+				<button class="btn">Добавить в список</button>	     
+			</div>
+			<div class="col-9 bg-blue border ml-1 mt-1 mr-1 mb-1" style=" margin-left: 10px;">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/-jGHOUaIzhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Окончание саги о противостоянии безжалостного маньяка Майкла Майерса с Лори Строудом.</p>	
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="col-12 bg-green d-flex" style=" margin-top: 50px;">
+			<div class="col-10 bg-blue border" style="">
+				<h1>Андертейл</h1>
+				<p>Самое любимое</p>
+			</div>
+			<div class="col-2 bg-blue border" style=" margin-left: 10px; ">
+				<img src="star.png" style="width: 50px;" class="star star3">
+                <h1 class="st3">10</h1>
+			</div>
+		</div>
+		<div class="col-12 bg-green mt-1 d-flex" style="">
+			<div class="col-3 bg-blue border ml-1 mt-1 mb-1" style="">
+				<img src="03.png" class="col-12">
+				<button class="btn">Добавить в список</button>	     
+			</div>
+			<div class="col-9 bg-blue border ml-1 mt-1 mb-1 mr-1" style=" margin-left: 10px;">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/xPa5p_KH_2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Легенда</p>	
+			</div>
+		</div>
+	</div>
+
+
+
+<script type="text/javascript">
+	let b = document.querySelectorAll('.btn');
+	b[0].onclick = function(){
+		alert("Добавить в список")
+	}
+	b[1].onclick = function(){
+		alert("Добавить в список")
+	}
+	b[2].onclick = function(){
+		alert("Добавить в список")
+	}
+
+	let a1 = -1000;
+	let st1 = document.querySelector(".st1");
+	st1.innerHTML = a1;
+	let star1 = document.querySelector(".star1");
+	star1.onclick = function(){
+		a1 = a1 - 1;
+		st1.innerHTML = a1;
+	}
+
+	let a2 = 8;
+	let st2 = document.querySelector(".st2");
+	st2.innerHTML = a2;
+	let star2 = document.querySelector(".star2");
+	star2.onclick = function(){
+		a2 = a2 + 1;
+		st2.innerHTML = a2;
+		if (a2 == 25) {
+			a2 = 25;
+			star2.style.opacity = 0;
+		}
+	}
+
+	let a3 = 10;
+	let st3 = document.querySelector(".st3");
+	st3.innerHTML = a3;
+	let star3 = document.querySelector(".star3");
+	star3.onclick = function(){
+		a3 = a3 + 1;
+		st3.innerHTML = a3;
+		if (a3 == 9999999999999999999999999999999999999) {
+			a3 = 9999999999999999999999999999999999999;
+			alert("Что ты делаешь?")
+		}
+	}
+</script>
+	
+</body>
+</html>
